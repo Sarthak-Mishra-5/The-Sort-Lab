@@ -522,7 +522,7 @@ export default function SortingVisualizer() {
             isDarkMode ? "text-white" : "text-slate-800"
           }`}
         >
-          Algorithm Visualizer
+          The Sort Lab
         </h1>
         <p className={`${isDarkMode ? "text-slate-300" : "text-slate-600"}`}>
           Interactive sorting and searching algorithm visualization
@@ -808,7 +808,7 @@ export default function SortingVisualizer() {
           </CardDescription>
         </CardHeader>
         <CardContent>
-          <div className="overflow-x-auto">
+          <div className="overflow-x-auto whitespace-nowrap">
             <table
               className={`w-full text-sm ${isDarkMode ? "text-slate-200" : ""}`}
             >
